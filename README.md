@@ -4,13 +4,26 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?logo=python)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-1.0.0-orange.svg)]()
+[![Version](https://img.shields.io/badge/Version-1.0.0-orange.svg)](https://github.com/Python-k19/Timer/releases)
 [![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)]()
-[![Code Style](https://img.shields.io/badge/Code%20Style-PEP%208-yellow.svg)]()
+[![Release](https://img.shields.io/github/v/release/Python-k19/Timer?color=brightgreen&label=Latest%20Release)](https://github.com/Python-k19/Timer/releases/tag/timer)
+[![Downloads](https://img.shields.io/github/downloads/Python-k19/Timer/total?color=blue&label=Downloads)](https://github.com/Python-k19/Timer/releases)
 
 **Профессиональный таймер с автоматизацией задач для Windows**
 
-[Возможности](#-возможности) • [Установка](#-установка) • [Использование](#-использование) • [Скриншоты](#-скриншоты)
+[📥 Скачать](https://github.com/Python-k19/Timer/releases/tag/timer) • [Возможности](#-возможности) • [Установка](#-установка) • [Использование](#-использование)
+
+</div>
+
+---
+
+## 🎉 Релиз доступен!
+
+<div align="center">
+
+[![Download](https://img.shields.io/badge/📥_Скачать_v1.0.0-4a9eff?style=for-the-badge&logo=github)](https://github.com/Python-k19/Timer/releases/tag/timer)
+
+**Готовый .exe файл — никаких установок не требуется!**
 
 </div>
 
@@ -23,11 +36,13 @@
 ### ✨ Особенности
 
 - 🎨 **Современный UI** — тёмная тема с плавными анимациями
--  **Два режима** — обратный отсчёт и точное время
 - 🤖 **Автодействия** — 7 типов автоматических действий
 - 🎵 **Кастомные звуки** — свои мелодии для уведомлений
 - 🔧 **Управление ПК** — выключение, перезагрузка, сон
 - 📊 **Прогресс-бар** — визуальное отслеживание времени
+- 🛡️ **Права админа** — автоматический запрос прав
+
+---
 
 ## 🚀 Возможности
 
@@ -48,7 +63,7 @@
 | 🔗 **Открыть ссылку** | 🌐 | Автоматическое открытие сайта в браузере |
 | 📂 **Запуск программы** | 🚀 | Открытие любого приложения |
 | ❌ **Закрытие программы** | 🛑 | Завершение процесса |
-| 💻 **Выключение ПК** |  | Автоматическое выключение компьютера |
+| 💻 **Выключение ПК** | ⏻ | Автоматическое выключение компьютера |
 | 🔄 **Перезагрузка** | ♻️ | Перезагрузка системы |
 | 💤 **Спящий режим** | 😴 | Перевод ПК в сон |
 
@@ -62,10 +77,6 @@
 - 🎹 Музыкальная композиция
 - 📁 Свой WAV файл
 
-</div>
-
-> 💡 **Совет**: Добавьте свои скриншоты в папку `screenshots/` для отображения
-
 ---
 
 ## 📥 Установка
@@ -73,12 +84,20 @@
 ### 🔧 Требования
 
 - **ОС**: Windows 7/8/10/11
-- **Python**: 3.8 или выше
-- **Права**: Администратор (для некоторых функций)
+- **Python**: 3.8 или выше (только для запуска из исходников)
 
-### 📦 Быстрая установка
+### 📦 Вариант 1: Готовый .exe (Рекомендуется)
+
+**Никаких установок! Просто скачайте и запустите:**
+
+1. Перейдите на страницу [Releases](https://github.com/Python-k19/Timer/releases/tag/timer)
+2. Скачайте файл `BeautifulTimer.exe`
+3. Запустите приложение
+4. Готово! ✅
+
+### 💻 Вариант 2: Из исходников
 
 1. **Скачайте проект**
 ```bash
-git clone https://github.com/ваш-username/beautiful-timer.git
-cd beautiful-timer
+git clone https://github.com/Python-k19/Timer.git
+cd Timer
